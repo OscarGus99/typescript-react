@@ -4,6 +4,6 @@ export type MenuItem = {
     price: number
 }
 
-export type orderItem = MenuItem &  {
-quantity: number
+export type OrderItem = MenuItem & {
+    quantity: number
 }
